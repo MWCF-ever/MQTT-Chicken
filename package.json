@@ -1,0 +1,37 @@
+{
+  "name": "302cem-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "nodemon app"
+  },
+  "keywords": [
+    "mqtt",
+    "nodejs"
+  ],
+  "author": "mokever",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^3.6.0",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^8.0.6",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.9.1",
+    "mqtt": "^3.0.0",
+    "mqtt-connection": "^4.0.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.0",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
